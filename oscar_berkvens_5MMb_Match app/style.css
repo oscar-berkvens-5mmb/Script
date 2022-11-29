@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(259, 20%, 54%);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 2em;
+    left: 2em;
+}
+
+nav {
+    display: none;
+    font-size: 1.5rem;
+    background-color: hsl(0, 57%, 73%);
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+label[for="burger"] i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+input#burger {
+    display: none;
+}
+
+input#burger:checked+nav {
+    display: block;
+}
+
+section {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+section#home {
+    background-image: url(Grote\ Markt\ Brussel.jpg);
+    background-size: cover;
+}
+
+section#home h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: american captain;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+
+section#home h3 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: myriad pro;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    right: 35%;
+    bottom: 35%;
+    color: rgb(125, 78, 121);
+}
+
+section#home h4 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: myriad pro;
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    right: 35%;
+    bottom: 35%;
+    color: rgb(0, 0, 0);
+}
+
+section#home h5 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: myriad pro;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    right: 35%;
+    bottom: 35%;
+    color: rgb(0, 0, 0);
+}
+
+section#home h6 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: myriad pro;
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    right: 35%;
+    bottom: 35%;
+    color: rgb(0, 0, 0);
+}
+
+section#home h7 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: myriad pro;
+    position: absolute;
+    top: 45%;
+    left: 62%;
+    right: 35%;
+    bottom: 35%;
+    color: rgb(0, 0, 0);
+}
+
+
+section#about {
+    background-color: rgb(125, 78, 121);
+}
+
+section#about h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 66%;
+    left: 20;
+    right: 20;
+}
+
+section#about p {
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    font-family: myriand pro;
+    top: 72%;
+    left: 8%;
+    right: 8%;
+    font-size: 0.9em;
+}
+
+section#about h3 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 89%;
+    left: 8%;
+    right: 8%;
+    color: hsl(0, 0%, 0%);
+}
+
+section#about h4 {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 93%;
+    left: 8%;
+    right: 8%;
+    color: hsl(0, 0%, 100%);
+}
+
+section#about h5 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    right: 8%;
+    color: hsl(0, 0%, 0%);
+}
+
+section#about h6 {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 104%;
+    left: 8%;
+    right: 8%;
+    color: hsl(0, 0%, 100%);
+}
+
+section#about h7 {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 114%;
+    left: 8%;
+    color: hsl(0, 0%, 100%);
+}
+
+section#projecten {
+    background-color: hsl(259, 20%, 54%);
+}
+
+section#projecten h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 128%;
+}
+
+section#projecten h3
+
+section#cv {
+    background-color: rgb(125, 78, 121);
+}
+
+section#cv h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 191%;
+}
+
+section#cv h3 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 200%;
+    left: 48%;
+}
+
+section#cv h4 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 212%;
+    left: 48%;
+}
+
+section#cv h5 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 225%;
+    left: 48%;
+}
+
+section#cv p {
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 203%;
+    left: 2%;
+}
+
+section#cv h6 {
+  font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 215%;
+    left: 2%;
+}
+
+section#cv h7 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: myriad pro;
+    position: absolute;
+    top: 228%;
+    left: 2%;
+}
+
+section#contact {
+    background-color: hsl(259, 20%, 54%);
+}
+
+section#contact h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: top;
+    font-family: american captain;
+    position: absolute;
+    top: 253%;
+}
