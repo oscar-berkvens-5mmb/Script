@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.message {
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.row {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.row img {
+    height: 50px;
+}
+
+.row ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.row ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.row ul li img {
+    height: 30px;
+}
