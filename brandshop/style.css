@@ -7,7 +7,7 @@
 body {
  background-repeat: no-repeat;
  min-height: 100vh;
- background-color: rgb(206, 185, 185);
+ background-color: rgb(251, 251, 251);
 }
 
 header {
@@ -17,17 +17,6 @@ header {
     
 
 }
-
-.TERUGBRENGEN {
-    color: rgb(255, 255, 255);
-    font-size: 6px;
-    text-align: center;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
-}
-
 
 .links {
     text-align: center ;
@@ -59,7 +48,7 @@ body {
 
 header {
     background-color: rgb(0, 0, 0);
-    height: 20px;
+height: 20px;
     width: 100%;
 
 }
@@ -77,7 +66,13 @@ header {
 
 
 .logo {
-    width: 3rem;
+    width: 5%;
+    height: 5%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+
+   
 }
 
 
@@ -95,36 +90,28 @@ li {
    }
 
    .zoeken {
-       position: absolute;
-       left: 88%;
-       top: 6.1%;
-       width: 1%;
-       height: %;
-
-   }
-
-   .flex-container {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 10px;
-   }
-
-   .shoppingcart {
-       position: absolute;
-       left: 92%;
-       width: 3%;
-       height: 3%;
-   }
-
-   .man {
-       position: ;
        width: 3%;
        height: 5%;
+    padding-right: px;
    }
-input{
-    position: absolute;
-    top: 5.5%;
-    left:75%;
-}
+
+   .man{
+       width: 2%;
+       position: absolute;
+       top: 8%;
+       left: 80%;
+   }
+
+   .shoppingcart{
+       width: 2%;
+       position: absolute;
+       top: 8%;
+       left: 76%;
+   }
+
+   input{
+       position: absolute;
+       top: 9%;
+       left: 65%;
+   }
 
