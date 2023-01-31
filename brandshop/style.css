@@ -97,21 +97,25 @@ li {
 
    .man{
        width: 2%;
-       position: absolute;
-       top: 8%;
-       left: 80%;
+       height: auto;
    }
 
    .shoppingcart{
        width: 2%;
-       position: absolute;
-       top: 8%;
-       left: 76%;
+       height: auto;
    }
 
    input{
        position: absolute;
        top: 9%;
        left: 65%;
+   }
+
+   @media screen and (max-width:992px) {
+       input {
+           display: none;
+       }
+
+
    }
 
