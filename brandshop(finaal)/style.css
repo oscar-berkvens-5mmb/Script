@@ -64,3 +64,12 @@ img {
     font-size: 0.7rem;
     text-align: center;
 }
+
+.pogba{
+    width: 100%;
+    padding: 35%;
+    background-image: url(adidas\ pogba\ .jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
