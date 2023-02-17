@@ -65,11 +65,45 @@ img {
     text-align: center;
 }
 
-.pogba{
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 85vh;
+}
+
+video {
     width: 100%;
-    padding: 35%;
-    background-image: url(adidas\ pogba\ .jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+
+
+.messi2 img {
+    position: absolute;
+    top: 174%;
+    left:58%;
+}
+
+.messi img {
+    position: absolute;
+    top: 174%;
+    left: 0%;
+    width: 32%;
+}
+
+.messi3 img {
+position: absolute;
+top: 174%;
+left: 32.5%;
+width: 25%;
 }
