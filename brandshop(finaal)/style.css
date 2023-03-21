@@ -88,22 +88,61 @@ video {
 
 
 
-.messi2 img {
-    position: absolute;
-    top: 174%;
-    left:58%;
+
+
+#messi img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 5/6;
+    object-fit: cover;
 }
 
-.messi img {
-    position: absolute;
-    top: 174%;
-    left: 0%;
-    width: 32%;
+.my-button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+footer {
+    padding: 5vw 10vw;
+    background: linear-gradient(to bottom, #f8e800, #000000);
+    color: rgb(0, 0, 0);
 }
 
-.messi3 img {
-position: absolute;
-top: 174%;
-left: 32.5%;
-width: 25%;
+footer .flex-container:first-child {
+    margin-bottom: 6rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 2rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+.socials img{
+    width: 20%;
+    padding: 10px;
 }
