@@ -82,5 +82,47 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    gap: 9rem;
+    gap: 10rem;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(0, 2%, 35%));
+    color: rgb(0, 0, 0);
+}
+
+footer .opsomming {
+    margin-bottom: 6rem;
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 3rem;
+    justify-content: center;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 2rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+.socials img{
+    width: 5%;
+    padding: 10px;
 }
