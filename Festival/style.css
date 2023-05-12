@@ -1,0 +1,86 @@
+@import url("https://fonts.google.com/specimen/Bruno+Ace+SC");
+
+:root {
+    --bgc-01: rgb(156, 74, 74);
+    --bgc-02: rgb(189, 85, 85);
+    --txt-01: hsl(0, 0%, 0%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hourtime {
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.header ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header ul li img {
+    height: 30px;
+}
+
+.korting{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(149, 27, 27);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 9rem;
+}
