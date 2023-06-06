@@ -93,13 +93,8 @@ img {
 }
 
 .video {
-    overflow: hidden;
-    margin-bottom: 3rem;
-    max-height: 100vh;
-}
-
-video {
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -142,4 +137,10 @@ footer i:hover {
 .socials img {
     width: 5%;
     padding: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.tekst {
+    text-align: center;
+
 }
