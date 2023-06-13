@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Header styles */
+
   header {
     display: flex;
     align-items: center;
@@ -362,6 +362,26 @@ section {
 h2 {
   color: #333;
 }
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  #toggle-menu:checked ~ .topnav {
+    display: block;
+  }
+}
+
 
 
 
