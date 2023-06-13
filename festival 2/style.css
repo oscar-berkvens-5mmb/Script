@@ -367,6 +367,14 @@ h2 {
   display: none;
 }
 
+#tickets {
+  min-height: 75vh;
+}
+
+#about {
+  min-height: 75vh;
+}
+
 @media only screen and (max-width: 600px) {
   .menu-icon {
     display: block;
@@ -378,6 +386,21 @@ h2 {
   }
 
   #toggle-menu:checked ~ .topnav {
+    display: block;
+  }
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
     display: block;
   }
 }
